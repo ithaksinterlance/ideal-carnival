@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import Apartment from '../public/img/contracting/apartment.jpg';
 import Balcony from '../public/img/contracting/Balcony.jpg';
 import Hotel from '../public/img/contracting/hotel.jpg';
-import ApartmentTwo from '../public/img/contracting/apartment2.jpg';
+import ApartmentTwo from '../public/img/contracting/Apartment2.jpg';
 import CarPark from '../public/img/contracting/carpark.jpg';
 import MEP from '../public/img/contracting/MEP.jpg';
 import Masjid from '../public/img/contracting/masjid.jpg';
@@ -69,7 +69,7 @@ const Hero = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. 
+              type and scrambled it to make a type specimen book.
             </p>
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
