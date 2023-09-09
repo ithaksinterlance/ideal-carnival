@@ -1,53 +1,40 @@
 import Container from './container';
 import Image from 'next/image';
-import heroImg from '../public/img/hero.png';
-import Slider from 'react-slick';
-import Apartment from '../public/img/contracting/apartment.jpg';
-import Balcony from '../public/img/contracting/Balcony.jpg';
-import Hotel from '../public/img/contracting/hotel.jpg';
 import ApartmentTwo from '../public/img/contracting/Apartment2.jpg';
-import CarPark from '../public/img/contracting/carpark.jpg';
 import MEP from '../public/img/contracting/MEP.jpg';
-import Masjid from '../public/img/contracting/masjid.jpg';
-import Residential from '../public/img/contracting/residential.jpg';
 import Link from 'next/link';
 
 const Hero = () => {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   return (
     <>
       <div className="relative">
         <Image
           src={ApartmentTwo}
           alt="Hero Image"
-          className="w-full h-auto brightness-75"
+          className="object-fill"
+          width="100%"
+          height="800"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div>
-            <h1 className="text-4xl text-center font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+            <h1 className="text-xl xl:text-2xl font-bold text-center tracking-wider uppercase text-white lg:text-4xl lg:leading-tight">
               Welcome to Company Name LLC
             </h1>
-            <p className="text-xl text-center leading-normal text-white font-semibold lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="text-sm text-center  leading-normal text-gray-300 dark:text-gray-300">
               Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar
               sit Lorem Ipsum Dollar sit
             </p>
-            <div className="flex flex-col items-center justify-center space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row my-8">
+            <div className="flex xl:flex-col 2xl:flex-col 3xl:flex-col lg:flex-col sm:mx-4 items-center justify-center sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row xs:flex-row  xs:space-x-4 xs:space-y-0 xs:items-center xl:my-8 lg:my-8 sm:my-8 xs:my-8 xs:mx-3 py-4">
               <div>
                 <Link
                   href="/Contact"
-                  className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 focus:bg-indigo-400 border-indigo-600 focus:border-indigo-400 border-4  rounded-md"
+                  className="lg:px-8 lg:py-4 xs:text-sm sm:text-sm md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white bg-indigo-600 focus:bg-indigo-400 border-indigo-600 focus:border-indigo-400 border-4 sm:border-2 rounded-sm"
                 >
                   Request Free Quote
                 </Link>
                 <Link
                   href="/Services"
-                  className=" mx-7 px-8 py-4 text-lg font-medium text-center text-white border-indigo-600 border-4 rounded-md"
+                  className="lg:mx-7 lg:px-8 lg:py-4 sm:px-4 sm:py-2 xs:px-4 xs:py-2 xs:text-base sm:text-base md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white border-indigo-600 border-4 rounded-md"
                 >
                   Services
                 </Link>
@@ -62,10 +49,10 @@ const Hero = () => {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Who Are We
             </h1>
-            <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">
+            <div className="text-xl lg:text-xl xl:text-2xl font-bold tracking-wider text-indigo-600 uppercase">
               Next-Generation MEP Engineering Services!
             </div>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="py-5 text-sm leading-normal text-gray-500 dark:text-gray-300">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
