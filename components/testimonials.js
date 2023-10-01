@@ -18,7 +18,6 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userOneImg}
               name="Sarah Steiner"
               title="VP Sales at Google"
             />
@@ -32,7 +31,6 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userTwoImg}
               name="Dylan Ambrose"
               title="Lead marketer at Netflix"
             />
@@ -46,7 +44,6 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userThreeImg}
               name="Gabrielle Winn"
               title="Co-founder of Acme Inc"
             />
@@ -61,13 +58,7 @@ function Avatar(props) {
   return (
     <div className="flex items-center mt-8 space-x-3">
       <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-        <Image
-          src={props.image}
-          width="40"
-          height="40"
-          alt="Avatar"
-          placeholder="blur"
-        />
+        <div className="h-12 w-12 rounded-full bg-accent"></div>
       </div>
       <div>
         <div className="text-lg font-medium">{props.name}</div>
