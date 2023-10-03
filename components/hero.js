@@ -17,10 +17,10 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div>
-            <h1 className="text-xl xl:text-2xl font-bold text-center tracking-wider uppercase text-white lg:text-4xl lg:leading-tight">
+            <h1 className="xs:text-xl sm:text-xl md:text-xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-center tracking-wider uppercase text-complementary lg:leading-tight">
               Welcome to Company Name LLC
             </h1>
-            <p className="text-sm text-center  leading-normal text-gray-300 dark:text-gray-300">
+            <p className="xs:text-base sm:text-base md:text-base lg:text-md xl:text-md 2xl:text-md text-center leading-normal text-black dark:text-gray-300 font-bold">
               Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar
               sit Lorem Ipsum Dollar sit
             </p>
@@ -46,10 +46,10 @@ const Hero = () => {
       <Container className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-primary lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Who Are We
             </h1>
-            <div className="text-xl lg:text-xl xl:text-2xl font-bold tracking-wider text-indigo-600 uppercase">
+            <div className="text-xl lg:text-xl xl:text-2xl font-bold tracking-wider text-secondary uppercase">
               Next-Generation MEP Engineering Services!
             </div>
             <p className="py-5 text-sm leading-normal text-gray-500 dark:text-gray-300">

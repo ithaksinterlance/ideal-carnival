@@ -24,8 +24,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+    <div className="w-full ">
+      <nav className="container relative flex flex-wrap items-center justify-between p-3 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
@@ -35,14 +35,14 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/favicon512.png"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="190"
+                        height="190"
+                        className="w-12"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Buildoo</span>
                   </span>
                 </Link>
 
@@ -71,21 +71,20 @@ const Navbar = () => {
                   </svg>
                 </Disclosure.Button>
 
-                <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+                <Disclosure.Panel className="flex flex-wrap w-full lg:hidden">
                   <>
-
                     {navigation.map((i) => (
                       <Link
                         key={i.item}
                         href={i.href}
-                        className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                        className="w-full px-4  -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                       >
                         {i.item}
                       </Link>
                     ))}
                     <Link
                       href="#requestquote"
-                      className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
+                      className="w-full px-6 py-2 mt-3 text-center text-white bg-primary rounded-md lg:ml-5"
                     >
                       Request Quote
                     </Link>
@@ -102,7 +101,7 @@ const Navbar = () => {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link
-                  href={ menu.href}
+                  href={menu.href}
                   className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800"
                 >
                   {menu.item}
@@ -115,7 +114,7 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link
             href="#requestquote"
-            className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
+            className="px-6 py-2 text-white bg-primary rounded-md md:ml-5"
           >
             Request Quote
           </Link>
