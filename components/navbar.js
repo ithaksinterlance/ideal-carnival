@@ -17,10 +17,6 @@ const Navbar = () => {
       item: 'Contact',
       href: '/Contact',
     },
-    {
-      item: 'Projects',
-      href: '/Projects',
-    },
   ];
 
   return (

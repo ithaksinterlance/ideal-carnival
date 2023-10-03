@@ -17,7 +17,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div>
-            <h1 className="xs:text-xl sm:text-xl md:text-xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-center tracking-wider uppercase text-complementary lg:leading-tight">
+            <h1 className="xs:text-xl sm:text-xl md:text-xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-center tracking-wider uppercase text-white lg:leading-tight">
               Welcome to Company Name LLC
             </h1>
             <p className="xs:text-base sm:text-base md:text-base lg:text-md xl:text-md 2xl:text-md text-center leading-normal text-black dark:text-gray-300 font-bold">
@@ -28,13 +28,13 @@ const Hero = () => {
               <div>
                 <Link
                   href="/Contact"
-                  className="lg:px-8 lg:py-4 xs:text-sm sm:text-sm md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white bg-indigo-600 focus:bg-indigo-400 border-indigo-600 focus:border-indigo-400 border-4 sm:border-2 rounded-sm"
+                  className="lg:px-8 lg:py-4 xs:text-sm sm:text-sm md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white bg-secondary rounded-md "
                 >
                   Request Free Quote
                 </Link>
                 <Link
                   href="/Services"
-                  className="lg:mx-7 lg:px-8 lg:py-4 sm:px-4 sm:py-2 xs:px-4 xs:py-2 xs:text-base sm:text-base md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white border-indigo-600 border-4 rounded-md"
+                  className="lg:mx-7 lg:px-8 lg:py-4 sm:px-4 sm:py-2 md:px-4 md:py-2 xs:px-4 xs:py-2 xs:text-base sm:text-base md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white border-secondary border-4 rounded-md"
                 >
                   Services
                 </Link>
@@ -60,12 +60,12 @@ const Hero = () => {
             </p>
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="/Projects"
+                href="/Services"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-black bg-accent rounded-md "
               >
-                Explore Our Projects
+                Explore Our Services
               </a>
             </div>
           </div>

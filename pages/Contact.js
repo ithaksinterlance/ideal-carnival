@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import Residential from '../public/img/contracting/residential.jpg';
 import Container from '../components/container';
-import Image from 'next/image';
 import Head from 'next/head';
 import Navbar from '../components/navbar';
 import SectionTitle from '../components/sectionTitle';
@@ -44,29 +42,33 @@ export default function Contact() {
         <title>Contracting site</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit
+        Lorem Ipsum Dollar sit"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Navbar />
-      <div className="relative">
-        <Image
-          src={Residential}
-          alt="Hero Image"
-          className="w-full h-72 brightness-75"
-        />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div>
-            <h1 className="text-4xl text-center font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Welcome to Company Name LLC
-            </h1>
-            <p className="text-xl text-center leading-normal text-white font-semibold lg:text-xl xl:text-2xl dark:text-gray-300">
-              Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar
-              sit Lorem Ipsum Dollar sit
-            </p>
+
+      <Container className={`flex w-full flex-col mt-4 max-w-lg`}>
+        <div className="text-2xl font-extrabold font-sans text-primary">Let&apos;s Connect</div>
+        <div>
+          <div className="flex mt-5 space-x-5 text-black dark:text-gray-500">
+            <ul>
+              <li className="text-xl py-4 font-bold tracking-wider text-primary uppercase">
+                HEAD OFFICE
+              </li>
+              <li>
+                125 Big fella St., New York, Hi 5654775, United States of
+                America
+              </li>
+              <li>Phone: 0123456789</li>
+              <li>Email: test@sbtechnosoft.com</li>
+              <li>Office Time: 9 a.m.- 6 p.m.</li>
+            </ul>
           </div>
         </div>
-      </div>
+      </Container>
+
       <Container className={`flex w-full flex-col mt-4 max-w-lg`}>
         <SectionTitle
           pretitle="Submit to us your Requirements"

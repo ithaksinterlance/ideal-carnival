@@ -19,9 +19,9 @@ const Home = () => {
         <title>Contracting site</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Navbar />
       <Hero />
@@ -29,19 +29,14 @@ const Home = () => {
         pretitle="Our Accompolishment"
         title="Real Acheivement takes hard roads to finish"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit
+        Lorem Ipsum Dollar sit
       </SectionTitle>
       <Countup />
 
-      <SectionTitle
-        pretitle="Company LLC Benefits"
-        title="Why do you need us?"
-      >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+      <SectionTitle pretitle="Company LLC Benefits" title="Why do you need us?">
+        Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit
+        Lorem Ipsum Dollar sit
       </SectionTitle>
       <Benefits data={benefitOne} />
 
@@ -49,9 +44,8 @@ const Home = () => {
         pretitle="What we do"
         title="Learn how to fullfil your needs"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit
+        Lorem Ipsum Dollar sit
       </SectionTitle>
       <WhatWeDo />
 
