@@ -17,24 +17,23 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div>
-            <h1 className="xs:text-xl sm:text-xl md:text-xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-center tracking-wider uppercase text-white lg:leading-tight">
+            <h1 className="xs:text-4xl sm:text-4xl md:text-3xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-center tracking-wider uppercase text-white lg:leading-tight">
               Welcome to Company Name LLC
             </h1>
             <p className="xs:text-base sm:text-base md:text-base lg:text-md xl:text-md 2xl:text-md text-center leading-normal text-black dark:text-gray-300 font-bold">
-              Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit Lorem Ipsum Dollar
-              sit Lorem Ipsum Dollar sit
+              Lorem Ipsum Dollar sit Lorem Ipsum Dollar sit
             </p>
-            <div className="flex xl:flex-col 2xl:flex-col 3xl:flex-col lg:flex-col sm:mx-4 items-center justify-center sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row xs:flex-row  xs:space-x-4 xs:space-y-0 xs:items-center xl:my-8 lg:my-8 sm:my-8 xs:my-8 xs:mx-3 py-4">
+            <div className="flex xl:flex-col 2xl:flex-col lg:flex-col sm:mx-4 items-center justify-center sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-col xs:flex-col xs:space-x-4 xs:space-y-0 xs:items-center xl:my-8 lg:my-8 sm:my-8 xs:my-8 xs:mx-3 py-4">
               <div>
                 <Link
                   href="/Contact"
-                  className="lg:px-8 lg:py-4 xs:text-sm sm:text-sm md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white bg-secondary rounded-md "
+                  className="lg:mx-7 xl:mx-7 2xl:mx-7 sm:mx-4 xs:mx-4 lg:px-8 lg:py-4 xl:px-8 xl:py-4 2xl:px-8 2xl:py-4 sm:px-4 sm:py-2 xs:px-4 xs:py-2 xs:text-sm sm:text-base md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white bg-secondary rounded-md border-secondary border-4"
                 >
                   Request Free Quote
                 </Link>
                 <Link
                   href="/Services"
-                  className="lg:mx-7 lg:px-8 lg:py-4 sm:px-4 sm:py-2 md:px-4 md:py-2 xs:px-4 xs:py-2 xs:text-base sm:text-base md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white border-secondary border-4 rounded-md"
+                  className="lg:mx-7 xl:mx-7 2xl:mx-7 sm:mx-4 xs:mx-4 md:mx-5 lg:px-8 lg:py-4 xl:px-8 xl:py-4 2xl:px-8 2xl:py-4 sm:px-4 sm:py-2 xs:px-4 xs:py-2 xs:text-sm xs:text-base sm:text-base md:text-lg xl:text-lg lg:text-lg font-medium text-center text-white border-secondary border-4 rounded-md"
                 >
                   Services
                 </Link>

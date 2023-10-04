@@ -38,7 +38,7 @@ const Navbar = () => {
                         className="w-12"
                       />
                     </span>
-                    <span>Buildoo</span>
+                    <span>Contracto</span>
                   </span>
                 </Link>
 
